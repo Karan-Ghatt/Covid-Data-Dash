@@ -1,15 +1,9 @@
-import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import plotly.express as px
-import folium
-import plotly.graph_objects as go
-import seaborn as sns
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-import dash_table
 import plotly_express as px
+
 
 ## DATA ##
 death_df = pd.read_csv(
