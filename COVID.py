@@ -71,6 +71,7 @@ confirmed_sorted_data_mortality = confirmed_sorted_data.sort_values('mortality_r
 
 ## DASH ##
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div(className="app-header", children=[
     html.Div('COVID-19 Data Dashboard', className="app-header--title"),
