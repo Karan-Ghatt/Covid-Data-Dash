@@ -1,1 +1,1 @@
-web: gunicorn covid:server
+web: gunicorn COVID:server
